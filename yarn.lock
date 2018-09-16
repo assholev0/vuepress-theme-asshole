@@ -1044,6 +1044,10 @@ minimist@0.0.8:
   version "0.0.8"
   resolved "http://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz#857fcabfc3397d2625b8228262e86aa7a011b05d"
 
+minireset.css@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/minireset.css/-/minireset.css-0.0.3.tgz#0b112dbbd7809ea0fc965388b79fd29390778fe5"
+
 mkdirp@^0.5.1:
   version "0.5.1"
   resolved "http://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
