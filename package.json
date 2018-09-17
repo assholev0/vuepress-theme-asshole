@@ -18,6 +18,8 @@
     "eslint-plugin-vue": "^5.0.0-beta.3"
   },
   "dependencies": {
+    "aplayer": "^1.10.1",
+    "dayjs": "^1.7.5",
     "minireset.css": "^0.0.3"
   }
 }
