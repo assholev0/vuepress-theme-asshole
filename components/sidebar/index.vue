@@ -15,7 +15,9 @@
           <h2>{{ $description || '' }}</h2>
         </div>
         <Statistics />
-        <Aplayer />
+        <ClientOnly>
+          <Aplayer />
+        </ClientOnly>
       </div>
     </div>
   </aside>

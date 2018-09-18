@@ -1,8 +1,8 @@
 {
   "name": "vuepress-theme-asshole",
-  "version": "0.0.0-alpha0",
+  "version": "0.0.0-alpha0-20180918",
   "description": "A Vuepress Theme for assholev0",
-  "main": "layout.vue",
+  "main": "Layout.vue",
   "repository": "git@github.com:assholev0/vuepress-theme-asshole.git",
   "author": "willin <willin@willin.org>",
   "license": "MIT",

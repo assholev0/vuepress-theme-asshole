@@ -30,7 +30,7 @@
 <style lang="stylus">
 #sidebar
   .site-state
-    margin-top: 1rem
+    margin: 1rem 0
 
   .site-state-item
     display: inline-block

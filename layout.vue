@@ -10,18 +10,21 @@
 <script>
 import Sidebar from './components/sidebar/index';
 import Home from './home';
+import Post from './post';
 
 export default {
   /* eslint-disable vue/no-unused-components */
   components: {
     Sidebar,
-    Home
+    Home,
+    Post
   },
   computed: {
     layout() {
       if (this.$route.path === this.$site.base) {
         return 'home';
       }
+      return this.$page.frontmatter.layout || 'post';
     }
   }
 };
@@ -30,3 +33,4 @@ export default {
 
 <style src="minireset.css"></style>
 <style src="./style/theme.styl" lang="stylus"></style>
+<style src="./style/mobile.styl" lang="stylus"></style>

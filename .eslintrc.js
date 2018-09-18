@@ -34,6 +34,7 @@ module.exports = {
     }
   },
   rules: {
+    'vue/no-v-html': 1,
     'import/no-extraneous-dependencies': 0,
     'vue/max-attributes-per-line': 0
   }
