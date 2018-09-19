@@ -56,9 +56,6 @@ export default {
       return this.$page;
     }
   },
-  mounted() {
-    console.log(this.$page.key);
-  },
   methods: {
     timeago(time) {
       return dayjs(time).fromNow();
