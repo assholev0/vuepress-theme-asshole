@@ -15,7 +15,7 @@
         （{{ timeago(post.updatedAt) }}）
       </span>
     </div>
-    <Content :key="$page.path" />
+    <Content :custom="false" />
 
     <div v-if="qr" class="qr">
       <p>扫码关注不迷路</p>
@@ -55,6 +55,9 @@ export default {
     page() {
       return this.$page;
     }
+  },
+  mounted() {
+    console.log(this.$page.key);
   },
   methods: {
     timeago(time) {

@@ -1,9 +1,9 @@
 <template>
   <div>
+    <Sidebar />
     <main id="main">
       <component :is="layout" />
     </main>
-    <Sidebar />
   </div>
 </template>
 
